@@ -1,0 +1,123 @@
+@charset "utf-8";
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.headCon .menu {
+  width: 0.55rem;
+  display: flex;
+  justify-content: space-between;
+}
+.headCon .menu span {
+  display: block;
+  width: 0.12rem;
+  height: 0.12rem;
+  background: #000;
+  border-radius: 50%;
+}
+.footbox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  height: 1.15rem;
+  align-items: center;
+  background: #fff;
+  border-top: 1px solid #ebebeb;
+  padding: 0 0.48rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.footbox a {
+  display: block;
+  text-align: center;
+}
+.footbox a img {
+  width: auto;
+  height: 0.53rem;
+}
+.footbox a > p {
+  font: 0.2rem/0.4rem "微软雅黑";
+  color: #888;
+}
+.footbox .active > p {
+  color: #ff5a05;
+}
+.headCon {
+  background: #fff;
+  height: 0.88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0.33rem 0 0.29rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+.headCon a.back {
+  display: block;
+}
+.headCon a.back img {
+  height: 0.29rem;
+}
+.headCon a.logo {
+  display: block;
+}
+.headCon a.logo img {
+  height: 0.31rem;
+}
+.headCon h2 {
+  width: 1.44rem;
+  height: 0.9rem;
+  font: 0.35rem/0.9rem "微软雅黑";
+  color: #fff;
+  text-align: center;
+}
+.search {
+  padding: 0.22rem 0 0.19rem;
+}
+.search a {
+  display: block;
+  text-align: center;
+  width: 6.28rem;
+  height: 0.76rem;
+  font: 0.26rem/0.76rem "微软雅黑";
+  color: #fff;
+  background-color: #f26b11;
+  border-radius: 0.4rem;
+  margin: 0 auto;
+  position: relative;
+}
+.search a em {
+  position: absolute;
+  width: 0.26rem;
+  height: 0.27rem;
+  background: url(../images/search.jpg) no-repeat;
+  background-size: 0.26rem 0.27rem;
+  top: 0.25rem;
+  left: 2.16rem;
+}
+.shopList {
+  padding: 0 0.23rem 2.5rem;
+}
+.shopList li {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 0.3rem 0 0.2rem;
+}
+.shopList li > img {
+  width: auto;
+  height: 1.6rem;
+}
+.shopList li .des .mess {
+  font: 0.24rem/0.37rem "微软雅黑";
+  color: #333;
+}
+.shopList li .des .pri {
+  font: 0.26rem/0.56rem "微软雅黑";
+  color: #e3393a;
+}
+.shopList li .des a {
+  font: 0.23rem/0.49rem "微软雅黑";
+  color: #9a9a9a;
+}
